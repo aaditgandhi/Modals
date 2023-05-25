@@ -25,13 +25,14 @@ const SystemAutoUpdate = () => {
                 </div>
                 <p className="text-xs">Enable system auto-updates</p>
             </div>
-            <div className="justify-start">
-                <button className="bg-cyan-500 py-2 px-4 rounded-md">Back</button>
-                <button className="bg-cyan-500 rounded-md px-4 py-2">Next</button>
+            <div className="w-full flex justify-between">
+                <button className="bg-cyan-500 rounded-md py-2 px-4">Back</button>
+                <button className="bg-cyan-500 rounded-md py-2 px-4 ">Next</button>
             </div>
         </div>
     </div>
   )
 }
+
 
 export default SystemAutoUpdate
